@@ -1,0 +1,113 @@
+*body{
+  margin: 0;
+  padding: 0;
+}
+/* @keyframes*/
+/* @-webkit-keyframes nombre{} */
+/* @-moz-keyframes nombre{} */
+@keyframes myanimation{
+  
+  0% {
+    opacity: 1;
+    }
+
+  20% {
+    opacity: 1;
+    }
+
+  30% {
+      opacity: 0;
+    }
+    90%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+@-webkit-keyframes myanimation{
+  
+  0% {
+    opacity: 1;
+    }
+
+  20% {
+    opacity: 1;
+    }
+
+  30% {
+      opacity: 0;
+    }
+    90%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+@-moz-keyframes myanimation{
+  
+  0% {
+    opacity: 1;
+    }
+
+  20% {
+    opacity: 1;
+    }
+
+  30% {
+      opacity: 0;
+    }
+    90%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+
+.bg1{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp2646303.jpg");
+  background-size: cover;
+  animation: myanimation 24s linear 18s infinite;
+  -webkit-animation: myanimation 24s linear 18s infinite;
+  -moz-animation: myanimation 24s linear 18s infinite;
+  
+  
+}
+.bg2{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.ytimg.com/vi/4t0eY_2E21s/maxresdefault.jpg");
+  background-size: cover;
+  animation: myanimation 24s linear 12s infinite;
+  -webkit-animation: myanimation 24s linear 12s infinite;
+  -moz-animation: myanimation 24s linear 12s infinite;
+  
+}
+
+.bg3{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg");
+  background-size: cover;
+  animation: myanimation 24s linear 6s infinite;
+  -webkit-animation: myanimation 24s linear 6s infinite;
+  -moz-animation: myanimation 24s linear 6s infinite;
+ 
+}
+.bg4{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images3.alphacoders.com/105/1052299.jpg");
+  background-size: cover;
+  animation: myanimation 24s linear 0s infinite;
+  -webkit-animation: myanimation 24s linear 0s infinite;
+  -moz-animation: myanimation 24s linear 0s infinite;
+}
